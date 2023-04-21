@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disrupting the world of calculator apps!</title>
+</head>
+<body>
+    <p>The dopest online calculator in the Milky Way!</p>
+    <p>Get hype to do basic arithmetical operations!</p>
+    <p>But only with two numbers...</p>
+
+    <form id="leetForm">
+        <label for="firstInput">First Number</label>
+        <input name="firstInput" type="number">
+        <label for="secondInput">Second Number</label>
+        <input name="secondInput" type="number">
+        <select id="calculateOption">
+            <option value="add">Addition</option>
+            <option value="subtract">Subtraction</option>
+            <option value="multiply">Multiplication</option>
+            <option value="divide">Division</option>
+        </select>
+        <button type="submit">Calculate!</button>
+    </form>
+    <p>Your Result:</p>
+    <input type="number" readonly id="Result">
+    <script src="./calculatorAppBack-end.js"></script>
+</body>
+</html>

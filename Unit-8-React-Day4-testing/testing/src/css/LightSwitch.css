@@ -1,0 +1,20 @@
+.LightSwitch {
+    border: 2px solid black;
+    height: 400px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.LightSwitch.Switch--on{
+    background-color: blue;
+}
+
+.LightSwitch.Switch--off{
+    background:black
+}
+
+h1, h3 {
+    color: white
+}
